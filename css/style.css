@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+h2 {
+    color: #008B8B;
+    text-decoration: underline;
+    text-align: center;
+    padding: 15px;
+}
+
+h3 {
+    color: #B0C4DE;
+    text-decoration: underline;
+    text-align: center;
+    padding: 15px;
+}
+
+/* header mobile */
+
+header {
+    padding: 25px;
+    background-image: url("../img/tomate3.webp");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+
+}
+
+header h1 {
+    text-align: center;
+}
+
+
+header ul li {
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+
+/* Main index Mobile */
+
+.top3dellacucina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F0E68C;
+    padding-top: 15px;
+    gap: 30px;
+
+
+
+
+}
+
+.top3dellacucina img {
+    width: 90%;
+}
+
+.noticias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #FFFF00;
+    padding-top: 15px;
+
+
+
+}
+
+.noticias img {
+    width: 90%;
+}
+
+/* footer mobile */
+
+footer {
+    background-color: coral;
+    padding: 25px;
+    background-image: url("../img/tomate2.webp");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    text-align: right;
+}
+
+.derechosreservados {
+    font-size: 0.7rem;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+/* index tablet */
+
+@media (min-width:768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header ul {
+        display: flex;
+
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+
+    }
+}
