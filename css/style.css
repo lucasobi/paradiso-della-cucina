@@ -39,3 +39,11 @@ header{
     background-image: url("../img/tomate3.jpg");
     background-size: cover;
     }
+
+    .bg-top3{
+        background-color: #F0E68C;
+    }
+
+    .bg-noticias{
+        background-color: #FFFF00;
+    }
