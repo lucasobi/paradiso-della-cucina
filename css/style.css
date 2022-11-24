@@ -40,6 +40,8 @@ header{
     background-size: cover;
     }
 
+    /* index */
+
     .bg-top3{
         background-color: #F0E68C;
     }
@@ -47,3 +49,10 @@ header{
     .bg-noticias{
         background-color: #FFFF00;
     }
+
+footer{
+    padding: 1rem;
+    background: no-repeat;
+    background-image: url("../img/tomate2.jpg");
+    background-size: cover;
+}
