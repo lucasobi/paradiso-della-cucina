@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-    color: #B0C4DE;
+    color: #37455c;
     text-decoration: underline;
     text-align: center;
     padding: 15px;
@@ -41,10 +41,10 @@ header {
     background-size: cover;
 }
 
-/* index */
+
 
 .degrade {
-    background-image: radial-gradient(circle at 31.7% 118.3%, #ffffcf 0, #ffffce 10%, #ffffcd 20%, #ecffcb 30%, #d9ffc8 40%, #c6f0c3 50%, #b5e1bd 60%, #a8d3b8 70%, #9ec8b3 80%, #96beaf 90%, #90b6ac 100%);
+    background-image: linear-gradient(15deg, #f7ff76 0, #e4ff72 12.5%, #cefe70 25%, #b6fb6f 37.5%, #9cf870 50%, #7ef573 62.5%, #59f178 75%, #12ee7f 87.5%, #00eb88 100%);
 }
 
 footer {
@@ -52,4 +52,9 @@ footer {
     background: no-repeat;
     background-image: url("../img/tomate2.jpg");
     background-size: cover;
+}
+
+.pie-de-foto{
+    font-size: 1.5rem;
+    padding: 14px;
 }
