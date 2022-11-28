@@ -34,23 +34,19 @@ h3 {
     padding: 15px;
 }
 
-header{
+header {
     background: no-repeat;
     background-image: url("../img/tomate3.jpg");
     background-size: cover;
-    }
+}
 
-    /* index */
+/* index */
 
-    .bg-top3{
-        background-color: #F0E68C;
-    }
+.degrade {
+    background-image: radial-gradient(circle at 31.7% 118.3%, #ffffcf 0, #ffffce 10%, #ffffcd 20%, #ecffcb 30%, #d9ffc8 40%, #c6f0c3 50%, #b5e1bd 60%, #a8d3b8 70%, #9ec8b3 80%, #96beaf 90%, #90b6ac 100%);
+}
 
-    .bg-noticias{
-        background-color: #FFFF00;
-    }
-
-footer{
+footer {
     padding: 1rem;
     background: no-repeat;
     background-image: url("../img/tomate2.jpg");
