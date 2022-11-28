@@ -93,3 +93,11 @@ footer {
     height: 70vh;
     font-size: 1.5rem;
 }
+
+.recetas {
+    padding: 30px;
+    text-decoration: underline;
+    height: 80vh;
+    font-size: 1.2rem;
+}
+
