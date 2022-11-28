@@ -54,24 +54,30 @@ footer {
     background-size: cover;
 }
 
-.pie-de-foto{
+.pie-de-foto {
     font-size: 1.5rem;
     padding: 14px;
 }
 
-.iniciar-sesion{
+.iniciar-sesion {
     padding: 50px;
     height: 70vh;
     font-size: 1.5rem;
 
 }
 
-.sepa{
+.sepa {
     padding: 0.5px;
 }
 
-.legales{
-        padding: 30px;
+.legales {
+    padding: 30px;
     height: 80vh;
+    font-size: 1.5rem;
+}
+
+.redes {
+    padding: 30px;
+    height: 70vh;
     font-size: 1.5rem;
 }
